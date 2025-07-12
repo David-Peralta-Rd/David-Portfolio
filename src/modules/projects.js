@@ -18,12 +18,12 @@ const projects = [
 ];
 
 const icons = {
-  python: "<i class='bx bxl-python'></i>",
-  django: "<i class='bx bxl-django'></i>",
-  postgresql: "<i class='bx bxl-postgresql'></i>",
-  html5: "<i class='bx bxl-html5'></i>",
-  css3: "<i class='bx bxl-css3'></i>",
-  javascript: "<i class='bx bxl-javascript'></i>"
+  python: "<i class='bxl  bx-python'  ></i> ",
+  django: "<i class='bxl  bx-django'  ></i> ",
+  postgresql: "<i class='bxl  bx-postgresql'  ></i> ",
+  html5: "<i class='bxl  bx-html5'  ></i> ",
+  css3: "<i class='bxl  bx-css3'  ></i> ",
+  javascript: "<i class='bxl  bx-javascript'  ></i> "
 };
 
 const container = document.getElementById("projects-container");
