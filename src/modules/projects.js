@@ -12,9 +12,9 @@ const projects = [
     description: "Portfolio made with pure HTML, CSS and JS",
     year: "2025",
     github: "https://github.com/David-Peralta-Rd/My_Portfolio",
-    image: "src/media/projects/portfolio-project/port-folio.png",
+    image: "src/media/projects/portfolio-project/portfolio.png",
     technologies: ["html5", "css3", "javascript"]
-  }
+  },
 ];
 
 const icons = {
