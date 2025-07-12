@@ -1,18 +1,18 @@
 const projects = [
   {
     name: "eCommercite Task Project - Sena",
-    description: "Proyecto de gestión de productos con Django y PostgreSQL.",
+    description: "Product management project with Django and PostgreSQL.",
     year: "2024 - 2025",
-    github: "https://github.com/tuusuario/ecommercite",
-    image: "img/ecommercite.png",
+    github: "https://github.com/David-Peralta-Rd/Ecommerce-Project-for-Work-at-Sena?tab=readme-ov-file",
+    image: "src/media/projects/ecommerce-project/ecommercite.png",
     technologies: ["python", "django", "postgresql"]
   },
   {
-    name: "Portfolio Personal",
-    description: "Portafolio hecho con HTML, CSS y JS puro.",
-    year: "2023",
-    github: "https://github.com/tuusuario/portfolio",
-    image: "img/portfolio.png",
+    name: "Personal Portfolio",
+    description: "Portfolio made with pure HTML, CSS and JS",
+    year: "2025",
+    github: "https://github.com/David-Peralta-Rd/My_Portfolio",
+    image: "src/media/projects/portfolio-project/port-folio.png",
     technologies: ["html5", "css3", "javascript"]
   }
 ];
@@ -42,7 +42,7 @@ projects.forEach(projects => {
       <p>${projects.description}</p>
       <div class="tech-icons">${tecnologiasHTML}</div>
       <a href="${projects.github}" class="github-link" target="_blank">
-        <i class='bx bxl-github'></i> Ver en GitHub
+        <i class='bx bxl-github'></i> Visit GitHub
       </a>
     </div>
   `;

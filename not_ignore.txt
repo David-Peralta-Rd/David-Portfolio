@@ -1,17 +1,14 @@
-Hi, in case I don't include the images I use in my portfolio, I'll tell you what you need to do.
-
-First step:
-
-- Create some folders inside src "media/background"
-
-Once you create the "media/background" folder,
-
-Add an image you want to use as a presentation background. Name it:
+I don't allow the use of my avatar images, so if you use this portfolio, please be considerate and change the images. The background image is called:
 
 - "home_1.jpg"
 
-Second: In the same "src/media/background" folder, you need to add a
-profile image, which can be found in the circular "About Me" section.
-For this, the image must be named: "about_me.png"
+The avatar image is called:
+- "about_me.png"
 
-That's all. There will be modifications, as I'll customize it to my liking.
+Both are in the "src/media/backgroud" folder.
+
+Modify them and enjoy. I don't mind sharing this portfolio. If you find it useful, use it, but change and modify it to your liking. Don't leave any information or projects about me.
+
+Modify the projects with the .js scripts in "src/modules."
+
+That's all I'd say. Enjoy it and good luck.
