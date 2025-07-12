@@ -1,23 +1,23 @@
-const proyectos = [
+const projects = [
   {
-    nombre: "eCommercite Task Project - Sena",
-    descripcion: "Proyecto de gestión de productos con Django y PostgreSQL.",
-    año: "2024 - 2025",
+    name: "eCommercite Task Project - Sena",
+    description: "Proyecto de gestión de productos con Django y PostgreSQL.",
+    year: "2024 - 2025",
     github: "https://github.com/tuusuario/ecommercite",
-    imagen: "img/ecommercite.png",
-    tecnologias: ["python", "django", "postgresql"]
+    image: "img/ecommercite.png",
+    technologies: ["python", "django", "postgresql"]
   },
   {
-    nombre: "Portfolio Personal",
-    descripcion: "Portafolio hecho con HTML, CSS y JS puro.",
-    año: "2023",
+    name: "Portfolio Personal",
+    description: "Portafolio hecho con HTML, CSS y JS puro.",
+    year: "2023",
     github: "https://github.com/tuusuario/portfolio",
-    imagen: "img/portfolio.png",
-    tecnologias: ["html5", "css3", "javascript"]
+    image: "img/portfolio.png",
+    technologies: ["html5", "css3", "javascript"]
   }
 ];
 
-const iconos = {
+const icons = {
   python: "<i class='bx bxl-python'></i>",
   django: "<i class='bx bxl-django'></i>",
   postgresql: "<i class='bx bxl-postgresql'></i>",
@@ -28,20 +28,20 @@ const iconos = {
 
 const container = document.getElementById("projects-container");
 
-proyectos.forEach(proyecto => {
+projects.forEach(projects => {
   const card = document.createElement("div");
   card.className = "project-card";
 
-  const tecnologiasHTML = proyecto.tecnologias.map(tec => iconos[tec] || "").join(" ");
+  const tecnologiasHTML = projects.technologies.map(tec => icons[tec] || "").join(" ");
 
   card.innerHTML = `
-    <img src="${proyecto.imagen}" alt="${proyecto.nombre}" class="project-image">
+    <img src="${projects.image}" alt="${projects.name}" class="project-image">
     <div class="project-info">
-      <div class="year"><i class='bx bx-calendar'></i> ${proyecto.año}</div>
-      <h3>${proyecto.nombre}</h3>
-      <p>${proyecto.descripcion}</p>
+      <div class="year"><i class='bx bx-calendar'></i> ${projects.year}</div>
+      <h3>${projects.name}</h3>
+      <p>${projects.description}</p>
       <div class="tech-icons">${tecnologiasHTML}</div>
-      <a href="${proyecto.github}" class="github-link" target="_blank">
+      <a href="${projects.github}" class="github-link" target="_blank">
         <i class='bx bxl-github'></i> Ver en GitHub
       </a>
     </div>

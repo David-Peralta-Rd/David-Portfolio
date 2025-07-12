@@ -1,61 +1,60 @@
-# 💼 Portafolio Personal – David
+# 💼 Personal Portfolio – David Peralta
 
-Este es mi portafolio web personal, desarrollado desde cero con HTML, CSS y JavaScript.
-Su propósito es mostrar mis proyectos, experiencia y habilidades como desarrollador backend, de forma limpia, modular y escalable.
+This is my personal web portfolio, developed from scratch with HTML, CSS, and JavaScript.
+Its purpose is to showcase my projects, experience, and skills as a backend developer in a clean, modular, and scalable way.
 
-![Vista previa del portafolio](./src/config/media/background/example_home.png)
-
----
-
-## 🌐 Demo en vivo
-
-👉 [https://tusitioejemplo.dev](https://tusitioejemplo.dev) *(Url de ejemplo)
+![Portfolio Preview](./src/config/media/background/example_home.png)
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 🌐 Live Demo
 
-- HTML5 semántico
-- CSS3 con organización modular
-- JavaScript puro (ES6)
-- Diseño responsive sin frameworks
-- Organización basada en componentes
+👉 [https://yourexamplesite.dev](https://yourexamplesite.dev) *(Example URL)
 
 ---
 
-## 📁 Estructura general
+## 🚀 Technologies Used
+
+- Semantic HTML5
+- CSS3 with Modular Organization
+- Pure JavaScript (ES6)
+- Responsive Design without Frameworks
+- Component-Based Organization
+
+---
+
+## 📁 General Structure
 src/
 
-├── modules/ # JS modular para experiencia y proyectos
+├── modules/ # Modular JS for experience and projects
 
-├── config/media/ # Imágenes, fondos y recursos visuales
+├── config/media/ # Images, backgrounds, and visual assets
 
-├── view/css/ # Estilos divididos por componente
-index.html # Página principal
-
-
----
-
-## 📄 Licencia y uso
-
-Este portafolio es de uso abierto bajo la licencia MIT.
-
-### ✅ Puedes:
-- Usar la estructura, código y lógica como base para tu propio portafolio.
-- Modificar libremente los archivos para adaptarlos a tu perfil.
-
-### 🚫 No puedes:
-- Usar mis imágenes personales, nombre, datos o avatar generado como si fueran tuyos.
-- Subir este proyecto sin modificar la identidad visual, textos o información personal.
-- Clonar el sitio completo sin atribución y publicarlo como si fuera tuyo.
-
-Por respeto al trabajo y la identidad de quien lo construyó, **debes modificar el contenido y personalizarlo completamente antes de usarlo públicamente**.
+├── view/css/ # Styles divided by component
+index.html # Home Page
 
 ---
 
-## 📫 Contacto
+## 📄 License and Use
 
-Si tienes preguntas o quieres conectar profesionalmente:
+This portfolio is open source under the MIT license.
+
+### ✅ You may:
+- Use the structure, code, and logic as the basis for your own portfolio.
+- Freely modify the files to suit your profile.
+
+### 🚫 You may not:
+- Use my personal images, name, data, or generated avatar as if they were your own.
+- Upload this project without modifying the visual identity, text, or personal information.
+- Clone the entire site without attribution and publish it as your own.
+
+Out of respect for the work and identity of the person who created it, **you must modify the content and fully customize it before using it publicly**.
+
+---
+
+## 📫 Contact
+
+If you have questions or want to connect professionally:
 
 - GitHub: [https://github.com/David-Peralta-Rd]
 - LinkedIn: [https://www.linkedin.com/in/david-peralta-380652366/]
