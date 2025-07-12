@@ -4,7 +4,7 @@ const projects = [
     description: "Product management project with Django and PostgreSQL.",
     year: "2024 - 2025",
     github: "https://github.com/David-Peralta-Rd/Ecommerce-Project-for-Work-at-Sena?tab=readme-ov-file",
-    image: "./src/media/projects/ecommerce-project/ecommercite.png",
+    image: "/src/media/projects/ecommerce-project/ecommercite.png",
     technologies: ["python", "django", "postgresql"]
   },
   {
@@ -12,7 +12,7 @@ const projects = [
     description: "Portfolio made with pure HTML, CSS and JS",
     year: "2025",
     github: "https://github.com/David-Peralta-Rd/My_Portfolio",
-    image: "./src/media/projects/portfolio-project/port-folio.png",
+    image: "/src/media/projects/portfolio-project/port-folio.png",
     technologies: ["html5", "css3", "javascript"]
   }
 ];
