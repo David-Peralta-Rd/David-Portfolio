@@ -1,0 +1,108 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.projects .title {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  color: var(--main-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border: .2rem solid var(--main-color);
+  border-radius: 2rem;
+  box-shadow: 0 0 15px var(--card-shadow);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: .1rem solid var(--main-color);
+}
+
+.project-info {
+  padding: 1.5rem;
+}
+
+.project-info .year {
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.project-info h3 {
+  margin: .5rem 0;
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.tech-icons i {
+  font-size: 1.4rem;
+  margin-right: 8px;
+  color: var(--main-color);
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--bg-color);
+  background: var(--main-color);
+  border-radius: .8rem;
+  padding: .6rem 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.github-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--bg-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.github-link:hover {
+  color: var(--main-color);
+}
+
+.github-link:hover::before {
+  width: 100%;
+}

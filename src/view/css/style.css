@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900');
+/*  Css del inicio de la web */
+@import url('body/body.css');
+@import url('body/home.css');
+@import url('body/bottoms.css');
+
+/* Css de los modulos de la web */
+@import url('modules/about.css');
+@import url('modules/projects.css');
+@import url('modules/experience.css');
+
+/* Css de las redes */
+@import url('social/social.css');
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
