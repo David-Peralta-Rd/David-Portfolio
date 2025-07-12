@@ -1,0 +1,12 @@
+Hola, por cuestiones de no poner las imagenes que uso en mi portafolio, te dire que tienes que hacer.
+
+primer paso: crea una carpeta en "src/media/background"
+
+una vez crees la carpeta "media/background"
+
+agrega una imagen que quieras usar de fondo de presentacion, se tiene que llamar "home_1.jpg"
+
+Segundo: en la misma carpeta de "src/media/background" tienes que agregar una imagen modo perfil que se encuentra en el apartado circular de about me, para eso la imagen se tiene que llamar: "about_me.png"
+
+
+Eso es todo, habra modificaciones ya que lo acomodare a mi gusto
