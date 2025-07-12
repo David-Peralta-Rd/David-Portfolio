@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       company: "Sena - Software Analysis and Development Technologist",
       year: "2023 - 2025",
       description: "I had my theoretical stage where I learned different skills, including: software architecture, database management, virtual machines, development in Python, HTML and CSS, management of frameworks and virtual environments and Docker containers.",
-      technologies: ["python", "docker", "postgresql", "docker"]
+      technologies: ["python", "docker", "postgresql"]
     },
     {
       role: "",
