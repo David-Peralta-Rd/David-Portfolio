@@ -1,3 +1,12 @@
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+    --card-bg: #112e42;
+    --card-shadow: rgba(0, 171, 240, 0.2);
+}
+
 @media (max-width: 1200px) {
     html1 {
         font-size: 55%;
@@ -23,7 +32,7 @@
 
 @media (max-width: 768px) {
     .header {
-        background: var(--bg-color);
+        background: var(--second-bg-color);
     }
 
     #menu-icon {
@@ -33,16 +42,50 @@
     .navbar {
         position: absolute;
         top: 100%;
-        left: 0%;
+        right: -100%;
         width: 100%;
         padding: 1rem 4%;
-        background: var(--bg-color);
+        background: var(--main-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+
+    .navbar.active {
+        right: 0;
+        transition-delay: 0s;
+    }
+
+    .navbar .active-nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active .active-nav {
+        right: 0;
+        transition-delay: .25s;
     }
 
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        transition: .25s;
+        transition-delay: 0s;
+        transform: translateX(20rem);
+    }
+
+    .navbar.active a {
+        transform: translateX(0);
+        transition-delay: .25s;
     }
 }
