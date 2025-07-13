@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Constancy", level: "mastery" },
     { name: "Python", level: "intermediate" },
     { name: "Django", level: "intermediate" },
-    { name: "HTML & CSS", level: "basic" },
-    { name: "JavaScript", level: "basic" },
     { name: "PostgreSQL", level: "basic" },
     { name: "Git & GitHub", level: "intermediate" },
     { name: "Docker", level: "basic" }
