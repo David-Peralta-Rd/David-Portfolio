@@ -1,0 +1,109 @@
+/* Animación central de entrada */
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  animation: fadeInScale 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.skills-column .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: clamp(1rem, 3vh, 1.8rem);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem 1.5rem;
+  background-color: var(--card-bg);
+  border-radius: 1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.4s ease, box-shadow 0.3s ease, opacity 0.5s ease;
+  position: relative;
+}
+
+.skill-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.skill-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.skill-name {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.skill-level {
+  font-size: 1.4rem;
+  font-weight: bold;
+  min-width: 130px;
+  padding: 0.4rem 0;
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--bg-color);
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+/* Colores por nivel con bordes mejorados */
+.level-basic {
+  background-color: #ff9f43;
+  border-color: #ffa94d;
+  box-shadow: 0 0 8px rgba(255, 159, 67, 0.5);
+}
+
+.level-intermediate {
+  background-color: #f39c12;
+  border-color: #f7b731;
+  box-shadow: 0 0 10px rgba(243, 156, 18, 0.6);
+  color: #1e1e1e;
+}
+
+.level-advanced {
+  background-color: #3498db;
+  border-color: #5dade2;
+  box-shadow: 0 0 12px rgba(52, 152, 219, 0.7);
+}
+
+.level-mastery {
+  background: linear-gradient(135deg, #f5f5f5, #ff0000, #000000);
+  border-image: linear-gradient(45deg, gold, crimson, black, white) 1;
+  color: #fff;
+  animation: masteryGlow 4s ease-in-out infinite;
+}
+
+@keyframes masteryGlow {
+  0%, 100% {
+    box-shadow: 0 0 12px gold;
+  }
+  50% {
+    box-shadow: 0 0 25px crimson;
+  }
+}

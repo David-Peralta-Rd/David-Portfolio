@@ -59,6 +59,6 @@ body {
 }
 
 section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
+  min-height: clamp(70vh, 90vh, 100vh);
+  padding: clamp(3rem, 7vh, 6rem) 9% clamp(2rem, 5vh, 4rem);
 }

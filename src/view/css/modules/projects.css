@@ -9,7 +9,7 @@
 
 .projects .title {
   font-size: 2.8rem;
-  margin-bottom: 3rem;
+  margin-bottom: clamp(1.5rem, 4vh, 3rem);
   color: var(--main-color);
 }
 
@@ -22,7 +22,6 @@
 }
 
 .project-card {
-  /* Lo que ya tienes */
   background-color: var(--card-bg);
   border: .2rem solid var(--main-color);
   border-radius: 2rem;
@@ -54,7 +53,7 @@
 .project-info .year {
   color: var(--main-color);
   font-weight: bold;
-  margin-bottom: .5rem;
+  margin-bottom: clamp(0.3rem, 1vh, 0.8rem);
 }
 
 .project-info h3 {
@@ -66,7 +65,7 @@
 .project-info p {
   font-size: 1rem;
   color: #aaa;
-  margin-bottom: 1rem;
+  margin-bottom: clamp(0.6rem, 2vh, 1.2rem);
 }
 
 .tech-icons i {
