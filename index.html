@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>My PortFolio</title>
 
-    <link rel="stylesheet" href="./src/view/css/style.css">
+    <link rel='stylesheet' href='./src/view/css/style.css'>
 
     <!-- Box Icons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 
 </head>
 <body>
 
     <!-- Header here. -->
-    <header class="header">
-        <a href="#" class="logo">David Peralta.</a>
+    <header class='header'>
+        <a href='#' class='logo'>David Peralta.</a>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class='bx bx-menu' id='menu-icon'></div>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+        <nav class='navbar'>
+            <a href='#home' class='active'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#projects'>Projects</a>
+            <a href='#experience'>Experience</a>
+            <a href='#skills'>Skills</a>
+            <a href='#contact'>Contact</a>
+
         </nav>
     </header>
 
     <!-- Home Section Design-->
-     <section class="home" id="home">
-        <div class="home-content">
+     <section class='home' id='home'>
+        <div class='home-content'>
             <h1>Hi, I'm <span>David Peralta</span></h1>
-            <div class="text-animate">
+            <div class='text-animate'>
                 <h3>Backend Developer</h3>
             </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -40,78 +43,123 @@
             et accusantium voluptatum eaque nostrum dignissimos asperiores qui,
             quidem illo consequatur saepe vitae nam perspiciatis.</p>
 
-            <div class="btn-box">
-                <a href="#" class="btn">Hire Me</a>
-                <a href="#" class="btn">Let's Talk</a>
+            <div class='btn-box'>
+                <a href='#' class='btn'>Hire Me</a>
+                <a href='#' class='btn'>Let's Talk</a>
             </div>
         </div>
 
-        <div class="home-sci">
-            <a href="#"><i class='bxl  bx-github'></i> </a>
-            <a href="#"><i class='bxl  bx-linkedin-square'></i> </a>
-            <a href="#"><i class='bxl  bx-gmail'></i> </a>
+        <div class='home-sci'>
+            <a href='#'><i class='bxl  bx-github'></i> </a>
+            <a href='#'><i class='bxl  bx-linkedin-square'></i> </a>
+            <a href='#'><i class='bxl  bx-gmail'></i> </a>
         </div>
 
-        <div class="home-imgHover"></div>
+        <div class='home-imgHover'></div>
      </section>
 
      <!-- About Section-->
-      <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
+      <section class='about' id='about'>
+        <h2 class='heading'>About <span>Me</span></h2>
 
-        <div class="about-img">
-            <img src="./src/media/background/about_me.png" alt="">
-            <span class="circle-spin"></span>
+        <div class='about-img'>
+            <img src='./src/media/background/about_me.png' alt=''>
+            <span class='circle-spin'></span>
         </div>
 
-        <div class="about-content">
+        <div class='about-content'>
             <h3>Backend Developer</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Eligendi molestiae sequi quisquam veniam vel ducimus sint dolorasperiores, quos veritatis, eos esse officia,
             deleniti aut optio tempore nesciunt fugiat voluptatem!</p>
 
-            <div class="btn-box btns">
-                <a href="#" class="btn">Read More</a>
+            <div class='btn-box btns'>
+                <a href='#' class='btn'>Read More</a>
             </div>
         </div>
       </section>
 
       <!-- Projects Section Design -->
-      <section class="projects" id="projects">
-        <h2 class="heading">My <span>Projects</span></h2>
+      <section class='projects' id='projects'>
+        <h2 class='heading'>My <span>Projects</span></h2>
 
-        <div class="projects-row">
-            <div class="projects-column">
-                <h2 class="title">Projects</h2>
-                <div class="projects-grid" id="projects-container"></div>
+        <div class='projects-row'>
+            <div class='projects-column'>
+                <h2 class='title'>Projects</h2>
+                <div class='projects-grid' id='projects-container'></div>
             </div>
         </div>
     </section>
-    <script src="./src/modules/projects.js"></script>
+    <script src='./src/modules/projects.js'></script>
 
     <!-- Experiencia Section Design -->
-    <section class="experience" id="experience">
-        <h2 class="heading">My <span>Experience</span></h2>
+    <section class='experience' id='experience'>
+        <h2 class='heading'>My <span>Experience</span></h2>
 
-        <div class="experience-row">
-            <div class="experience-column">
-                <h2 class="title">Experience</h2>
-                <div class="experience-grid" id="experience-container"></div>
+        <div class='experience-row'>
+            <div class='experience-column'>
+                <h2 class='title'>Experience</h2>
+                <div class='experience-grid' id='experience-container'></div>
             </div>
         </div>
     </section>
-    <script src="./src/modules/experience.js"></script>
+    <script src='./src/modules/experience.js'></script>
 
     <!-- Skills Section Design-->
-    <section class="skills" id="skills">
-      <h2 class="heading">My <span>Skills</span></h2>
-      <div class="skills-row">
-        <div class="skills-column">
-          <h3 class="title">Coding Skills</h3>
-          <div class="skill-box" id="skills-container"></div>
+    <section class='skills' id='skills'>
+      <h2 class='heading'>My <span>Skills</span></h2>
+      <div class='skills-row'>
+        <div class='skills-column'>
+          <h3 class='title'>Coding Skills</h3>
+          <div class='skill-box' id='skills-container'></div>
         </div>
       </div>
     </section>
-    <script src="./src/modules/skills.js"></script>
+    <script src='./src/modules/skills.js'></script>
+
+    <!-- Contact Setion Design-->
+    <section class='contact' id='contact'>
+      <h2 class='heading'>Contact <span>Me</span></h2>
+
+      <div class='contact-info'>
+        <p>You can reach me directly through any of the methods below, or leave a message and I’ll get back to you.</p>
+
+        <ul class='contact-links'>
+          <li>
+            <i class='bxl  bx-gmail'  ></i>
+            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=crdavidperalta@gmail.com&su=Contact%20from%20your%20portfolio&body=Hi%20David%2C%0A%0AI%20just%20visited%20your%20portfolio%20and%20I'm%20interested%20in%20getting%20in%20touch%20with%20you.%20Let's%20connect!' target='_blank' rel='noopener'>
+              crdavidperalta@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <i class='bxl  bx-linkedin'  ></i>
+            <a href='https://www.linkedin.com/in/david-peralta-380652366/' target='_blank'>
+              LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <i class='bxl  bx-github'  ></i>
+            <a href='https://github.com/David-Peralta-Rd' target='_blank'>
+              GitHub Profile
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Foster Section Design -->
+    <footer class='footer'>
+      <div class='footer-text'>
+        <p>Developed by David Peralta</p>
+      </div>
+
+      <div class='footer-iconTop'>
+        <a href='#'><i class='bx  bx-arrow-up-stroke-circle'  ></i> </a>
+      </div>
+    </footer>
+
+    <script src='./src/config/logic/scripts.js'></script>
 </body>
 </html>
