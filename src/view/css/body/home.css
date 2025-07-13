@@ -11,6 +11,10 @@
     max-width: 60rem;
 }
 
+.home-content h1 span {
+    color: var(--text-color);
+}
+
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;

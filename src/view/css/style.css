@@ -9,9 +9,13 @@
 @import url('modules/projects.css');
 @import url('modules/experience.css');
 @import url('modules/skills.css');
+@import url('modules/contac.css');
 
 /* Css de las redes */
 @import url('social/social.css');
+
+/* BreakPoints*/
+@import url('body/breakpoints.css');
 
 :root {
     --bg-color: #081b29;
