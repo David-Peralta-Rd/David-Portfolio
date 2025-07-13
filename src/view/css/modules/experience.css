@@ -7,6 +7,11 @@
   color: var(--text-color);
 }
 
+.experience {
+  min-height: 70vh;
+  padding-bottom:  10rem 9% 2rem;
+}
+
 .experience .title {
   font-size: clamp(2.2rem, 5vw, 2.8rem);
   margin-bottom: 3rem;

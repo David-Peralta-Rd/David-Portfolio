@@ -9,6 +9,11 @@
   }
 }
 
+.contact {
+  min-height: 40vh;
+  padding-bottom:  10rem 9% 2rem;
+}
+
 .contact-links {
   list-style: none;
   padding: 0;
