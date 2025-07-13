@@ -9,6 +9,7 @@
 
 .home-content {
     max-width: 60rem;
+    z-index: 99;
 }
 
 .home-content h1 span {

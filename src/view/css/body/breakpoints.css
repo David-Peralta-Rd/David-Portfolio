@@ -80,4 +80,10 @@
         transform: translateX(0);
         transition-delay: .25s;
     }
+
+    .home-imgHover {
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: .6;
+    }
 }
