@@ -23,7 +23,7 @@
 .skills-column .title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: clamp(1rem, 3vh, 1.8rem);
+  margin-bottom: 1.5rem;
   color: var(--text-color);
   text-align: center;
 }

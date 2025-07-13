@@ -1,7 +1,7 @@
 .home-sci {
     position: absolute;
-    bottom: 12rem;
-    width: 170px;
+    bottom: 1.5rem;
+    width: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -49,7 +49,7 @@
     top: 0;
     right: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     background: transparent;
     transition: 3s;
 }

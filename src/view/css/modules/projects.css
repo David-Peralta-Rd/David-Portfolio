@@ -61,7 +61,7 @@
   color: var(--main-color);
   font-weight: bold;
   font-size: 1.1rem;
-  margin-bottom: clamp(0.3rem, 1vh, 0.8rem);
+  margin-bottom: 0.5rem
 }
 
 .project-info h3 {
@@ -73,7 +73,7 @@
 .project-info p {
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
   color: #aaa;
-  margin-bottom: clamp(0.6rem, 2vh, 1.2rem);
+  margin-bottom: 1.2rem;
   line-height: 1.5;
 }
 

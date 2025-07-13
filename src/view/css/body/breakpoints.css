@@ -87,3 +87,5 @@
         opacity: .6;
     }
 }
+
+@media (max-width: 520px) {}

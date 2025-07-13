@@ -9,7 +9,7 @@
 
 .experience .title {
   font-size: clamp(2.2rem, 5vw, 2.8rem);
-  margin-bottom: clamp(1.5rem, 4vh, 3rem);
+  margin-bottom: 3rem;
   color: var(--main-color);
   text-align: center;
 }
@@ -52,7 +52,7 @@
   color: var(--main-color);
   font-weight: bold;
   font-size: 1.1rem;
-  margin-bottom: clamp(0.3rem, 1vh, 0.8rem);
+  margin-bottom: 0.5rem
 }
 
 .experience-info p {
