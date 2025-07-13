@@ -41,9 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     container.appendChild(item);
 
-    // Añadir animación con delay suave
     setTimeout(() => {
       item.classList.add("show");
-    }, index * 100); // cada 100ms para escalonarlo
+    }, index * 100);
   });
 });

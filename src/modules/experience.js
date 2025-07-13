@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     card.innerHTML = `
       <div class="experience-info">
-        <div class="periodo"><i class='bx bx-calendar'></i> ${exp.year}</div>
+        <div class="periodo"><i class='bxl  bx-bash'  ></i>  ${exp.year}</div>
         <h3>${exp.role} - ${exp.company}</h3>
         <p>${exp.description}</p>
         <div class="tech-icons">${tecnologiasHTML}</div>
