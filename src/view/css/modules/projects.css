@@ -5,7 +5,7 @@
   padding: 4rem 1.5rem;
   background-color: var(--bg-color);
   color: var(--text-color);
-  scroll-margin-top: 100px; /* para JS scroll detection */
+  scroll-margin-top: 100px;
 }
 
 .projects .title {
@@ -27,6 +27,7 @@
 }
 
 .project-card {
+  position: relative;
   background-color: var(--card-bg);
   border: 0.2rem solid var(--main-color);
   border-radius: 2rem;
@@ -36,12 +37,37 @@
   flex-direction: column;
   padding: 1.2rem;
   height: 100%;
-  min-width: 0; /* evita desbordes en grid */
+  min-width: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 0%;
+  height: 120%;
+  background: var(--main-color);
+  z-index: 0;
+  transition: width 0.6s ease;
+  border-radius: 2rem;
+  opacity: 0.08;
+}
+
+.project-card:hover::before {
+  width: 120%;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 20px var(--main-color);
+  box-shadow: 0 0 30px var(--main-color);
+}
+
+.project-card * {
+  position: relative;
+  z-index: 1;
 }
 
 .project-image {
