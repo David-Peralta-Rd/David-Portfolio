@@ -167,6 +167,17 @@
     }
 }
 
+/* Animation Reload And Scroll*/
+.animate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    z-index: 98;
+}
+
 @media (max-width: 371px) {
     .home {
         justify-content: center;

@@ -46,7 +46,7 @@ span {
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
-
+    animation: aboutSpinner 8s linear infinite;
 
 }
 
@@ -70,4 +70,10 @@ span {
 
 .btn-box.btns a::before {
     background: var(--second-bg-color);
+}
+
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }

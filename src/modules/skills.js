@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const skills = [
     { name: "Constancy", level: "mastery" },
     { name: "Python", level: "intermediate" },
-    { name: "Django", level: "intermediate" },
     { name: "PostgreSQL", level: "intermediate" },
     { name: "Git & GitHub", level: "intermediate" },
     { name: "Docker", level: "intermediate" }
