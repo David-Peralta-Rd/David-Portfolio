@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Constancy", level: "mastery" },
     { name: "Python", level: "intermediate" },
     { name: "Django", level: "intermediate" },
-    { name: "PostgreSQL", level: "basic" },
+    { name: "PostgreSQL", level: "intermediate" },
     { name: "Git & GitHub", level: "intermediate" },
-    { name: "Docker", level: "basic" }
+    { name: "Docker", level: "intermediate" }
   ];
 
   const levelClass = {
