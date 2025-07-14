@@ -122,7 +122,7 @@
     }
 
     .project-image {
-      height: 160px; /* más baja para móviles */
+      height: 160px;
     }
 
     .project-info h3,
@@ -165,17 +165,6 @@
         margin-top: 2rem;
         text-align: center;
     }
-}
-
-/* Animation Reload And Scroll*/
-.animate {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: yellowgreen;
-    z-index: 98;
 }
 
 @media (max-width: 371px) {
