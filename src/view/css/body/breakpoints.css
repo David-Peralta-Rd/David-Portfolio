@@ -153,16 +153,6 @@
       padding: 0.8rem 1.4rem;
     }
 
-    .home-sci {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .home-sci a {
-        width: 100%;
-        justify-content: center;
-    }
-
     .contact form contact-info contact-links {
         width: 100%;
     }
