@@ -4,8 +4,10 @@
     width: 200px;
     display: flex;
     justify-content: space-between;
+    gap: 0.5rem;
 }
 
+/* Íconos sociales */
 .home-sci a {
     position: relative;
     display: inline-flex;
@@ -14,17 +16,16 @@
     width: 50px;
     height: 50px;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: 0.2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 30px;
     color: var(--main-color);
-    margin: 2px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.home-sci a:hover{
+.home-sci a:hover {
     color: var(--bg-color);
 }
 
@@ -37,13 +38,14 @@
     height: 100%;
     background: var(--main-color);
     z-index: -1;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .home-sci a:hover::before {
     width: 100%;
 }
 
+/* Imagen hover */
 .home-imgHover {
     position: absolute;
     top: 0;
@@ -56,5 +58,23 @@
 
 .home-imgHover:hover {
     background: var(--bg-color);
-    opacity: .15;
+    opacity: 0.15;
+}
+
+/* 📱 Móvil: íconos centrados y apilados si se requiere */
+@media (max-width: 520px) {
+    .home-sci {
+        position: static;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .home-sci a {
+        width: 48px;
+        height: 48px;
+        font-size: 26px;
+    }
 }
