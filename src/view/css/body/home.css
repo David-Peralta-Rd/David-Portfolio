@@ -62,7 +62,7 @@
 
 .logo .animate,
 .navbar .animate {
-    animation: showRight 1s ease forwards;
+    animation: showRight 1s ease  forwards;
     animation-delay: calc(.3s * var(--i));
 }
 
@@ -96,5 +96,11 @@
     75%,
     81% {
         opacity: 0;
+    }
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
     }
 }
