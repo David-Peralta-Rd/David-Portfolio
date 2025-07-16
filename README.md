@@ -9,7 +9,7 @@ Its purpose is to showcase my projects, experience, and skills as a backend deve
 
 ## 🌐 Live Demo
 
-👉 [https://david-peralta-rd.github.io/My_Portfolio/] *(PortFolio)
+👉 [https://david-peralta-rd.github.io/David-Portfolio/] *(PortFolio)
 
 ---
 
